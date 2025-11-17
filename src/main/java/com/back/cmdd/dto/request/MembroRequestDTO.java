@@ -10,7 +10,7 @@ public class MembroRequestDTO {
     private LocalDate dataNascimento;
     private String telefone;
     private String email;
-    private Long enderecoId;
+    private Long enderecoId;       // Ainda por ID (ou mudamos para nome também?)
     private String fotoUrl;
-    private Long celulaId;
+    private String nomeLider;      // ← NOVO: Nome do líder para encontrar a célula
 }

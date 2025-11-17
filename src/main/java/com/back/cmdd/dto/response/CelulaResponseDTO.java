@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 
 @Data
 public class CelulaResponseDTO {
-    private Long id;
+    private Long celulaId;
     private String nome;
     private UsuarioSistemaResponseDTO lider;
     private RedeResponseDTO rede;

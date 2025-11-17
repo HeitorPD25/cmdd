@@ -20,7 +20,7 @@ public class Celula {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long celulaId;
 
     @Column(nullable = false, length = 255)
     private String nome;

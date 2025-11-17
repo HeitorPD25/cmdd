@@ -1,5 +1,6 @@
 package com.back.cmdd.model;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import com.back.cmdd.model.Enums.StatusMembro;
@@ -31,7 +32,7 @@ public class Membro {
     private String nomeCompleto;
 
     @Column(name = "data_nascimento")
-    private LocalDateTime dataNascimento;
+    private LocalDate dataNascimento;
 
     @Column(length = 20)
     private String telefone;
@@ -51,4 +52,7 @@ public class Membro {
 
     @Column(name = "data_cadastro")
     private LocalDateTime dataCadastro = LocalDateTime.now();
+
+    private Celula celula;
+
 }
